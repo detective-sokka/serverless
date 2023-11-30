@@ -1,0 +1,20 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "Lambda function to store Assingment submission to Google Storage Bucket",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sai Dutt",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^7.6.0",
+    "aws-sdk": "^2.1504.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
+    "nodemailer-mailgun-transport": "^2.1.5"
+  }
+}
